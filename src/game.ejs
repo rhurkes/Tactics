@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  </head>
+  <body>
+    <div id="gameContainer">
+      <div id="statusBar">
+        <ol>
+          <img id="playerSprite" />
+          <div id="nameplate">
+            <div id="playerName"></div>
+            <div id="playerLevel"></div>
+            <div id="playerClass"></div>
+            <div id="playerZone"></div>
+          </div>
+        </ol>
+      </div>
+      <div id="mainContainer">
+        <div id="canvas-container">
+          <canvas id="cvs-base"></canvas>
+          <canvas id="cvs-mobs"></canvas>
+          <canvas id="cvs-effects"></canvas>
+          <canvas id="cvs-lighting"></canvas>
+          <canvas id="cvs-weather"></canvas>
+        </div>
+        <div id="eventsContainer">
+          <ol id="events"></ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

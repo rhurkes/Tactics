@@ -1,0 +1,39 @@
+{
+  "name": "tactics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "mocha": "^3.5.3",
+    "node-sass": "^4.6.0",
+    "sass-loader": "^6.0.6",
+    "should": "^13.0.1",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.19.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "TODO",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhurkes/tactics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhurkes/tactics/issues"
+  },
+  "homepage": "https://github.com/rhurkes/tactics#readme"
+}

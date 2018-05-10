@@ -1,0 +1,24 @@
+@import 'reset';
+
+canvas {
+  image-rendering: pixelated;
+}
+
+body, html {
+  font-family: 'Press Start 2P', cursive;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+#gameContainer {
+  width: 720px;
+  height: 1280px;
+  border: 2px solid #666;
+}
+
+#canvas-container > canvas {
+  image-rendering: pixelated;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

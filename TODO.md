@@ -1,0 +1,3 @@
+- get fonts working
+- get images working
+- easy way to debug the game.. a lot of helpers seem to be out of scope when debugging
